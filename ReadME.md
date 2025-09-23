@@ -32,7 +32,7 @@ It mounts your EFI, copies the kexts, and updates your `config.plist` automatica
 2. Clone the repository:
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/jai-git4208/BluetoothFixup/
    ```
 3. Navigate into the folder:
 
@@ -59,6 +59,7 @@ It mounts your EFI, copies the kexts, and updates your `config.plist` automatica
 * The script **does not modify any files outside the EFI folder**.
 * It’s safe to run multiple times, but **back up your EFI** before running.
 * Ensure your EFI is mounted at `/Volumes/EFI`.
+* Ensure you have python3 installed.
 
 ---
 
