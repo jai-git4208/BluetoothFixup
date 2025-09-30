@@ -322,8 +322,8 @@ show_menu() {
 main() {
     echo -e "${MAGENTA}"
     echo "╔═══════════════════════════════════════════════════════════╗"
-    echo "║     macOS Bluetooth Kext Installation Manager            ║"
-    echo "║     Based on BrcmPatchRAM & IntelBluetooth              ║"
+    echo "║     macOS Bluetooth Kext Installation Manager             ║"
+    echo "║     Based on BrcmPatchRAM & IntelBluetooth                ║"
     echo "╚═══════════════════════════════════════════════════════════╝"
     echo -e "${NC}"
     
@@ -353,6 +353,7 @@ main() {
                 echo -e "${BLUE}Starting complete installation...${NC}"
                 mount_efi && copy_kexts && update_plist
                 echo -e "${GREEN}Installation complete!${NC}"
+                echo -e "${RED}Made with ♥️ by Jaimin${NC}"
                 ;;
             7)
                 reboot_system
